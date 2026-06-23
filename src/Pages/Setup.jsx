@@ -1,10 +1,10 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer.jsx";
-import { roles } from "../data/Roles.js";
-import { difficulties } from "../data/Difficulties.js";
-import { questionCounts } from "../data/QuestionCount.js"
+import Navbar from "../Components/Navbar.jsx";
+import Footer from "../Components/Footer.jsx";
+import { roles } from "../Data/Roles.js";
+import { difficulties } from "../Data/Difficulties.js";
+import { questionCounts } from "../Data/QuestionCount.js"
 
 export default function Setup() {
     const navigate = useNavigate();

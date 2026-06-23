@@ -2,8 +2,8 @@ import { Navigate, useLocation, Link } from "react-router-dom";
 
 import { useState, useEffect } from "react";
 import { evaluateInterview } from "../services/gemini";
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer.jsx";
+import Navbar from "../Components/Navbar.jsx";
+import Footer from "../Components/Footer.jsx";
 import { fallbackAnswers } from "../Data/FallBackAnswers.js";
 
 export default function Results() {

@@ -1,11 +1,11 @@
 import { useState } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer.jsx";
+import Navbar from "../Components/Navbar.jsx";
+import Footer from "../Components/Footer.jsx";
 import { useEffect } from "react";
-import { generateQuestions } from "../services/gemini";
-import { fallbackQuestions } from "../data/FallBackQuestions.js";
-import { getQuestions } from "../data/FallBackQuestions";
+import { generateQuestions } from "../Services/Gemini.js";
+import { fallbackQuestions } from "../Data/FallBackQuestions.js";
+import { getQuestions } from "../Data/FallBackQuestions.js";
 
 export default function Interview() {
     const navigate = useNavigate();
