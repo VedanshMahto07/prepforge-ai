@@ -1,7 +1,7 @@
 import { Navigate, useLocation, Link } from "react-router-dom";
 
 import { useState, useEffect } from "react";
-import { evaluateInterview } from "../services/gemini";
+import { evaluateInterview } from "../Services/Gemini.js";
 import Navbar from "../Components/Navbar.jsx";
 import Footer from "../Components/Footer.jsx";
 import { fallbackAnswers } from "../Data/FallBackAnswers.js";
