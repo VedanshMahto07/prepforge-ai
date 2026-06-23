@@ -1,0 +1,17 @@
+export const roles = [
+  "Frontend Developer",
+  "Backend Developer",
+  "Full Stack Developer",
+  "React Developer",
+  "Java Developer",
+  "Python Developer",
+  "Data Analyst",
+  "Data Scientist",
+  "Machine Learning Engineer",
+  "DevOps Engineer",
+  "Cloud Engineer",
+  "Cybersecurity Analyst",
+  "QA Engineer",
+  "Business Analyst",
+  "Product Manager",
+];
